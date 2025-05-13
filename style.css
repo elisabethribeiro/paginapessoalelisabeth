@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #938DF8;
+    padding: 25px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.navegacao ul {
+    list-style: none;
+    display: flex;
+    color: #fff;
+}
+
+.navegacao ul li{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#sobre {
+    text-align: center;
+    background-color: rgba(210, 210, 210, 0.151);
+    padding: 20px;;
+}
+
+h1 {
+    color: #fff;
+}
+
+h2 {
+    color: #49BFB3;
+}
