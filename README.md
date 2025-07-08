@@ -1,2 +1,2 @@
 # paginapessoalelisabeth
-Página pessoal - Curso Introdutório Minas Programam (HTML + CSS)
+Página pessoal elaborada em 2025 no curso Introdutório Minas Programam utilizando HTML e CSS.
