@@ -1,2 +1,2 @@
 # paginapessoalelisabeth
-Página pessoal elaborada em 2025 no curso Introdutório Minas Programam utilizando HTML e CSS.
+Página pessoal elaborada em 2025 nogit curso Introdutório Minas Programam utilizando HTML e CSS.
