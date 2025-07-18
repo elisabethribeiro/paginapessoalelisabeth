@@ -7,7 +7,7 @@ body {
 .nav-bar {
   background-color: #432818;
   height: 100px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #faf4eb;
   align-content: center;
   margin-right: 10px;
 }
@@ -22,7 +22,7 @@ body {
 
 .nav-list > li > a {
   text-decoration: none;
-  color: #ffffff;
+  color: #faf4eb;
   font-weight: 400;
 }
 
@@ -35,25 +35,17 @@ body {
 }
 
 .article-principal {
-  align-items: center;
-  justify-content: space-between;
   gap: 20px;
 }
 
-.text-principal {
-  max-width: 100%;
-  font-size: 52, 67px;
-  font-weight: 700;
-  line-height: 62, 5px;
-}
-
 .text-principal > h1 {
-  font-size: 2em;
+  font-size: 32px;
   color: #432818;
 }
 
 .text-principal > h1 > span {
   color: #99582a;
+  font-size: 24px;
 }
 
 .text-principal > h1 > p {
@@ -62,7 +54,7 @@ body {
 }
 .subtext-principal {
   max-width: 100%;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 380;
   line-height: 25px;
   color: #432818;
@@ -76,10 +68,10 @@ body {
 
 .btn-linkedin {
   border: 1px solid #99582a;
-  color: #ffffff;
+  color: #faf4eb;
   border-radius: 4px;
   width: 180px;
-  background-color: #6f1d1b;
+  background-color: #432818;
   text-decoration: none;
   text-align: center;
   padding: 10px 20px;
@@ -87,10 +79,10 @@ body {
 
 .btn-github {
   border: 1px solid #432818;
-  color: #6f1d1b;
+  color: #432818;
   border-radius: 4px;
   width: 180px;
-  background-color: #ffffff;
+  background-color: #ede0d4;
   text-decoration: none;
   text-align: center;
   padding: 10px 20px;
@@ -104,7 +96,7 @@ body {
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 28px;
   color: #432818;
   margin-top: 60px;
   margin-bottom: 20px;
@@ -116,54 +108,66 @@ h2 {
   height: 200px;
 }
 
-#formacoes {
-  max-width: auto;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column; /* garante que os elementos fiquem empilhados verticalmente */
-  align-items: flex-start; /* alinha o conteúdo à esquerda */
+.formacoes-cursos h2 {
+  text-align: center;
 }
 
-#formacoes h2 {
-  margin-left: 50px;
-  padding: 50px 0 0 50px;
+.formacoes-cursos {
+  font-size: 14px;
 }
 
-#formacoes ul {
-  background-color: #faf4eb;
-  padding: 0 175px 80px 175px;
-  margin-right: auto;
+.formacoes-cursos article {
+  text-align: center;
 }
 
-#formacoes li {
+.formacoes-cursos p {
+  text-align: center;
+}
+
+#formacoes ul,
+#cursos ul {
+  background-color: #ede0d4;
+  padding: 0 50px 10px 20px;
+  border-radius: 20px;
+}
+
+#formacoes li,
+#cursos li {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
   border-bottom: 1px solid #bb9457;
-  padding: 60px 0;
+  padding: 30px 30px 30px 30px;
   color: #432818;
 }
 
-#formacoes article {
-  width: 65%;
+#formacoes article,
+#cursos article {
+  width: 40%;
+}
+
+.formacoes-cursos {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#formacoes,
+#cursos {
+  flex: 1;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 20px;
 }
 
 article > p {
   text-align: justify;
 }
 
-#experiencias {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column; /* garante que os elementos fiquem empilhados verticalmente */
-  align-items: flex-start; /* alinha o conteúdo à esquerda */
-}
-
 #experiencias ul {
- background-color: #faf4eb;
-  padding:0px 375px 80px 375px;
+  background-color: #ede0d4;
+  padding: 0px 175px 80px 175px;
   margin-right: auto;
-
 }
 
 #experiencias h2 {
@@ -176,12 +180,81 @@ article > p {
   justify-content: space-between;
   align-items: flex-start;
   border-bottom: 1px solid #bb9457;
-  padding: 60px 50px 50px 50px;
+  padding: 60px 0;
   color: #432818;
 }
 
 #experiencias article {
   width: 65%;
+}
+
+.todos-projetos h2 {
+  text-align: center;
+}
+
+.todos-projetos {
+  font-size: 14px;
+}
+
+.todos-projetos article {
+  text-align: center;
+}
+
+.todos-projetos p {
+  text-align: center;
+}
+
+.todos-projetos a {
+  text-decoration: none;
+  color: #432818;
+}
+
+#projeto1 ul,
+#projeto2 ul,
+#projeto3 ul {
+  background-color: #ede0d4;
+  padding: 0 50px 10px 20px;
+  border-radius: 20px;
+}
+
+#projeto1 li,
+#projeto2 li,
+#projeto3 li {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #bb9457;
+  padding: 30px 30px 30px 30px;
+  color: #432818;
+}
+
+#projeto1 article,
+#projeto2 article,
+#projeto3 article {
+  width: 65%;
+}
+
+.todos-projetos {
+  display: flex;
+  flex-direction: column;
+}
+
+#projeto1,
+#projeto2,
+#projeto3 {
+  flex: 1;
+  align-content: center;
+  padding: 0px 500px 0px 500px;
+  border-radius: 20px;
+}
+
+.btn-projeto {
+  background-color: #bb9457;
+  border: none;
+}
+
+.btn-projeto-git {
+  background-color: #faf4eb;
+  border: none;
 }
 
 #formulario {
