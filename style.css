@@ -164,9 +164,13 @@ article > p {
   text-align: justify;
 }
 
+#experiencias {
+  font-size: 14px;
+}
+
 #experiencias ul {
   background-color: #ede0d4;
-  padding: 0px 175px 80px 175px;
+  padding: 0px 100px 50px 100px;
   margin-right: auto;
 }
 
