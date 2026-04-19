@@ -1,37 +1,37 @@
-# Página Pessoal | Elisabeth Ribeiro
+# Página Pessoal Elisabeth
 
-🌐 Projeto de página pessoal desenvolvido em 2025 durante o curso Introdutório do Minas Programam.
+Segunda versão da minha página pessoal, desenvolvida em 2025 com HTML e CSS durante o curso Introdutório Minas Programam.
 
-Este projeto foi criado utilizando HTML e CSS como prática de desenvolvimento front-end e tem como objetivo apresentar um resumo profissional e primeiros passos com estruturação e estilização de páginas web.
+Este projeto representa a evolução do meu primeiro portfólio, com melhorias na estrutura do código, estilização e organização da página.
 
-## 🚀 Acesse o projeto
-🔗 Demo online: https://elisabeth-pagina-pessoal.netlify.app/
+## 📌 Sobre o projeto
 
-## 📌 Objetivos do projeto
-- Praticar estruturação com HTML5
-- Aplicar estilização com CSS3
-- Desenvolver uma página pessoal responsiva
-- Exercitar conceitos introdutórios de front-end
+A proposta deste projeto foi revisitar meu primeiro portfólio e desenvolver uma nova versão aplicando melhorias técnicas e visuais.
 
 ## 🛠 Tecnologias utilizadas
-- HTML5
+
+- HTML5  
 - CSS3
 
-## ✨ Funcionalidades
-- Seção de apresentação pessoal
-- Estrutura semântica em HTML
-- Estilização com CSS
-- Layout responsivo
+## ✨ Melhorias em relação ao primeiro projeto
+
+- Código mais organizado  
+- Estrutura HTML aprimorada  
+- Melhor estilização com CSS  
+- Evolução do layout  
 
 ## 📚 Aprendizados
+
 Durante o desenvolvimento deste projeto, pratiquei:
-- Estrutura básica de páginas web
-- Seletores e propriedades CSS
-- Organização de código front-end
-- Publicação de projetos com deploy
 
-## 🎓 Contexto
-Projeto desenvolvido no curso Introdutório Minas Programam (2025).
+- Refatoração de código  
+- Melhoria incremental de projetos  
+- Organização de código front-end  
 
-## 👩‍💻 Autora
-Elisabeth Ribeiro
+## 🔄 Projeto anterior
+
+Este repositório é uma evolução do meu primeiro projeto: https://github.com/elisabethribeiro/portfolio-elisabeth
+
+## 🚀 Acesse o projeto
+
+🔗 https://elisabeth-pagina-pessoal.netlify.app/
